@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Drum Kit</title>
+  <script defer src="main.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" type="image/png" href="/assets/mingucodes.png"/>  
+</head>
+<body>
+  <div class="keys">
+    <div data-key="65" class="key">
+      <img src="/assets/pinga1.png">
+      <kbd>meh</kbd>
+    </div>
+    <div data-key="83" class="key">
+      <img src="/assets/pingu1.png">
+      <kbd>moo</kbd>
+    </div>
+    <div data-key="68" class="key">
+      <img src="/assets/pinga1.png">
+      <kbd>pyow</kbd>
+    </div>
+    <div data-key="70" class="key">
+      <img src="/assets/pingu1.png">
+      <kbd>too</kbd>
+    </div>
+    <div data-key="71" class="key">
+      <img src="/assets/pinga1.png">
+      <kbd>ping</kbd>
+    </div>
+    <div data-key="72" class="key">
+      <img src="/assets/pingu1.png">
+      <kbd>goo</kbd>
+    </div>
+    <!-- <div data-key="74" class="key">
+      <img src="pinga1.png">
+      <kbd>goo</kbd>
+    </div> -->
+    <!-- <div data-key="75" class="key">
+      <kbd>K</kbd>
+    </div>
+    <div data-key="76" class="key">
+      <kbd>L</kbd>
+    </div> -->
+  </div>
+
+  <audio data-key="65" src="/assets/sounds/meh.m4a"></audio>
+  <audio data-key="83" src="/assets/sounds/moo.m4a"></audio>
+  <audio data-key="68" src="/assets/sounds/pyaw.m4a"></audio>
+  <audio data-key="70" src="/assets/sounds/too.m4a"></audio>
+  <audio data-key="71" src="/assets/sounds/ping.m4a"></audio>
+  <audio data-key="72" src="/assets/sounds/goo.m4a"></audio>
+  <audio data-key="74" src="/assets/sounds/goo.m4a"></audio>
+  <audio data-key="75" src="/assets/sounds/tom.wav"></audio>
+  <audio data-key="76" src="/assets/sounds/tink.wav"></audio>
+
+  <audio autoplay loop id="theme-inst">
+    <source src="/assets/sounds/theme-inst.mp3" type="audio/mp3">
+  </audio>
+<!-- 
+  <iframe src="/assets/sounds/theme-inst.mp3" type="audio/mp3" allow="autoplay" id="theme-inst" style="display: none">
+  </iframe> -->
+  
+  <video id="bgvid" playsinline autoplay muted loop poster="/assets/pingu.jpg">
+    <source src="/assets/pingu-video-bg.mp4" type="video/mp4">
+  </video>
+
+</body>
+</html>

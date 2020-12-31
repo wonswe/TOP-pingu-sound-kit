@@ -1,0 +1,74 @@
+@import url(https://allfont.net/allfont.css?fonts=pingu);
+
+html {
+  font-size: 10px;
+  background-size: 100%;
+  background-image: url('pingu-music.gif');
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  text-transform: lowercase;
+}
+
+.keys {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  align-content: space-around;
+  justify-content: center;
+}
+
+.key {
+  border-radius: 0.5rem;
+  margin: 1rem;
+  font-size: 1rem;
+  padding: 1rem 0.5rem;
+  transition: all 0.07s ease;
+  width: 15rem;
+  text-align: center;
+  color: rgb(231, 133, 22);
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 1rem #bbbbbb;
+}
+
+@media screen and (max-width: 500px) {
+}
+
+.playing {
+  transform: scale(1.2);
+}
+
+kbd {
+  display: block;
+  font-family: 'Pingu', arial;
+  font-size: 3rem;
+}
+
+img {
+  width: 130px;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: lowercase;
+  letter-spacing: 0.1rem;
+  color: rgb(231, 81, 22);
+}
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+#bgvid {
+  position: fixed;
+  z-index: -1;
+}
