@@ -1,4 +1,7 @@
-# TOP-pingu-sound-kit
-LIVE: https://wonswe.github.io/TOP-pingu-sound-kit/
+# Pingu Sound Kit
 
-Reference: https://github.com/wesbos/JavaScript30/tree/master/01%20-%20JavaScript%20Drum%20Kit
+LIVE: https://wonswe.github.io/pingu-sound-kit/
+
+Use your keyboard to create a Pingu Theme Song yourself.
+
+Keys: A S D F G H
